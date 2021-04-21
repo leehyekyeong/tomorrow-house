@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "node-sass": "node-sass",
-    "sass": "node-sass -w -r styles/main.scss style.css"
+    "sass": "node-sass -w -r --source-map true styles/main.scss style.css"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,6 @@
   "homepage": "https://github.com/leehyekyeong/tomorrow-house#readme",
   "dependencies": {
     "node-sass": "^5.0.0"
-  }
+  },
+  "devDependencies": {}
 }
