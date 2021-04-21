@@ -23,7 +23,7 @@ $flex-map: (
   //     @return space-between;
   //   }
   //   @if ($key == stretch) {
-  //     @return center;
+  //     @return stretch;
   //   }
   //   @if ($key == center) {
   //     @return center;
@@ -50,5 +50,5 @@ $flex-map: (
 }
 
 .list {
-  @include flexbox();
+  @include flexbox;
 }
