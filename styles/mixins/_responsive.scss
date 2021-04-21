@@ -10,10 +10,3 @@
     }
   }
 }
-
-.section {
-  @include responsive(T) {
-  }
-  @include responsive(D) {
-  }
-}
